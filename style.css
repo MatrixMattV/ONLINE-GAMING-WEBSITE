@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkslategray;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 8px 16px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.poker-info, .blackjack-info, .slot-info, .roulette-info, .sport-info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.poker-text, .blackjack-text, .slot-text, .roulette-text, .sport-text  {
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.poker-text h1, .blackjack-text h1, .slot-text h1, .roulette-text h1, .sport-text h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.poker-text p,.blackjack-text p, .slot-text p, .roulette-text p, .sport-text p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.poker-img {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 40px;
+}
+
+.poker {
+    position: absolute;
+    max-width: 750px;
+    left: -250px;
+    border-radius: 16px;
+}
+
+.blackjack-img {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.blackjack {
+    position: absolute;
+    max-width: 750px;
+    left: -250px;
+    border-radius: 16px;
+}
+
+.slot-img {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 200px;
+}
+
+.slots {
+    position: absolute;
+    max-width: 450px;
+    left: -150px;
+    border-radius: 16px;
+}
+
+.roulette-img {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.roulette {
+    position: absolute;
+    max-width: 750px;
+    left: -200px;
+    border-radius: 16px;
+}
+
+.sport-img {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 80px;
+}
+
+.sports {
+    position: absolute;
+    max-width: 750px;
+    left: -200px;
+    border-radius: 16px;
+}
